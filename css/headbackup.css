@@ -1,0 +1,53 @@
+.header{
+    width: 102%;
+    left: -1%;
+    position:fixed;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.78); /* Параметры тени */
+    }
+	.clipPolygon {
+	height: 95px;
+	width: 80%;
+    top: 0; 
+	margin: auto;
+	background: #090909;
+    -webkit-clip-path: polygon(0% 0%, 0% 100%, 5px 90px, 5px 5px, 145px 5px, 145px 90px, 5px 90px, 0px 100%, 100% 100%, 100% 0);
+    clip-path: polygon(0% 0%, 0% 100%, 5px 90px, 5px 5px, 145px 5px, 145px 90px, 5px 90px, 0px 100%, 100% 100%, 100% 0);
+}
+	.headerleft{
+	height: 95px;
+	width: 10%;
+    top: 0; left:0;
+	background: #090909;
+	float: left;
+
+
+	}
+	.headerright{
+	height: 95px;
+	width: 11%;
+    top: 0;
+	background: #090909;
+	float: right;
+
+	}
+    .logopos{
+	
+	float: left;
+
+	}
+#logobox {
+    height: 95px;
+    top: 0;
+    }
+
+#menubox{
+    height: 20px;
+    top: 100px;
+	background: #090909;
+    }
+	
+.menu{
+    width: 80%;
+    height: 20px;
+	margin: auto;
+	}
