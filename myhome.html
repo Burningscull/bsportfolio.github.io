@@ -1,0 +1,87 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Burning scull</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
+	<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+	<link href="glitch.css" type="text/css" rel="stylesheet" />
+</head>
+<body>	
+	<div id="logobox" class="header">
+		<div class="leftbox"></div><div class="logopos"><object type="image/svg+xml" data="image/logo_opt.svg" title="logo"/></object></div><div class="rightbox"></div>
+	</div>
+	
+	<div id="menubox" class="header">
+		<div class="menu"> 
+			<ul class="navigation"> 
+				<li><a href="/index.html#sechome">< Назад</a></li>
+			</ul>
+		</div>
+	</div>
+
+    
+	<div class="globalbox">
+	    <img src="myhome/myhome.jpg" class="gltop"/>
+		<div class="globj">
+			<div style="background-image: url(black-diagonal-lines.png); background-repeat: repeat; opacity: 0.2; width:100%; flex-grow: 1;">
+			</div>
+        </div>
+		
+	</div>
+	
+	<div class="titlegl">О работе.</div>
+	<div class="textgl">
+	<div class="textblock">Одной из самых сложных работ с точки зрения проектирования интерфейса была работа над сайтом сети строительных супермаркетов "Мой Дом. Азбука ремонта." Разработка сайта происходила силами фирмы "Vitrum-media", в которой, на тот момент, я работал web-дизайнером. Изначальный сайт-представительство не отвечал современным требованиям и был говном. Помимо редизайна, была поставлена задача запустить интернет магазин.  </div>
+	<div class="textblock">Разработка сайта проходила по классической схеме работы. Первым делом был отрисован концепт сайта который определял структуру, наличие и позиции всех элементов, основную цветовую гамму сайта. Главным вопросом в проектировании стало расположение каталога товаров. Заказчиком было выбрано две основных концепции его расположения. Так же, были разработаны векторные иконки для оформления пунктов меню.   </div>
+	</div>
+	
+	<div class="titlegl" style="width: auto;">Первый вариант дизайна и расположения каталога.</div>	
+	<div class="vkquote" style="margin-top:5px;">
+		<div class="bodywidth">
+			<div style="width:100%; text-align: center;"><img src="myhome/myhome1.jpg"/></div>
+		</div>
+	</div>
+
+	<div class="textgl" style="margin-top:60px;">
+		В последствии, от этого варианта было решено отказаться, по причине необходимости добавления блоков "Новости", "Советы и решения" и "Отзывы". Каталог был перенесён в шапку сайта и стал скрытым. В целом, общая конструкция сайта - классическая для интернет магазина. Выбранные цвета позволяют концентрировать внимание пользователя на самих товарах. В блоке "Лидеры продаж" - оформление позиций каталога является стандартным для всех страниц сайта. Сайт планировался с бесконечным скроллом до последнего товара. Баннер и блок "О нас" актуальны только для главной страницы. 
+	</div>
+	
+	<div class="titlegl" style="width: auto;">Утверждённый вариант дизайна и расположения каталога.</div>	
+	<div class="vkquote" style="margin-top:5px;">
+			<div style="margin: auto; text-align: center;"><img src="myhome/myhome2.jpg"/></div>
+			<div style="margin-top: 20px; text-align: center;"><img src="myhome/myhome3.jpg"/></div>
+			<div style="margin-top: 20px; text-align: center;"><img src="myhome/myhome4.jpg"/></div>
+	</div>
+	
+	
+	
+	<div class="titlegl">Заключение.</div>
+	<div class="textgl">Для меня, участие в этом проекте, было очень значимым. Я получил огромный опыт в проектировании интерфейса и повысил навыки управления вниманием пользователя при наличии большого количества информации. Конечно, спустя много лет после участия в этом проекте я вижу некоторые недостатки в проделанной мной работе. К сожалению, после завершения разработки дизайна сайта, фирма не смогла договориться о стоимости программирования оного. На данный момент, оригинальный сайт так и лежит в руинах, не подавая признаков жизни. </div>
+
+	<div class="texterror">
+		<div class="glitch" data-text="СТРАНИЦА ЗАПОЛНЯЕТСЯ">СТРАНИЦА ЗАПОЛНЯЕТСЯ</div>
+	</div>
+	
+	<script type="text/javascript">
+	$('a[href^="#"]').bind('click.smoothscroll',function (e) {
+	e.preventDefault();
+ 
+	var target = this.hash,
+	$target = $(target);
+ 
+	$('html, body').stop().animate({
+	'scrollTop': $target.offset().top
+	}, 500, 'swing', function () {
+	window.location.hash = target;
+	});
+	});
+	</script>
+</body>
+</html>
+
+
+
+
+
